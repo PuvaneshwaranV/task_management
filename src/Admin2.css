@@ -1,0 +1,64 @@
+.btn-save {
+    background: #141619;
+    border: none;
+    color: #B3B4BD;
+    margin: 1.2%;
+  }
+  
+  .btn-save:hover {
+    background: #2C2E3A;
+    color: #B3B4BD;
+  }
+  .btn-view {
+    background: #141619;
+    border: none;
+    color: #B3B4BD;
+  }
+  .btn-view:hover {
+    background: #2C2E3A;
+    color: #B3B4BD;
+  }
+
+  .form-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .w-50 {
+    width: 48%; 
+    margin: 1%;
+    height: 10px;
+  }
+  
+  .table {
+    overflow-x: auto;
+  }
+  
+  .table {
+    min-width: 100%; /* Set a minimum width for the table */
+  }
+  
+  @media (max-width: 768px) {
+    .table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    /* #ct{
+        margin-top: 100px;
+        margin-left:-85px;
+      } */
+  }
+  @media (max-width: 500px) {
+    .table {
+      display: block;
+      width: 60%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    /* #ct{
+      margin-top: 100px;
+      margin-left:-85px;
+    } */
+  }
