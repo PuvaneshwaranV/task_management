@@ -1,0 +1,142 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chart-container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .header h2 {
+    margin: 10px 0;
+  }
+  
+  .task-management {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  
+  .total-tasks {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .header h2 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .task-management {
+      justify-content: center;
+    }
+  
+    .total-tasks {
+      margin-top: 10px;
+    }
+  
+    .chart-wrapper {
+      height: 300px;
+    }
+  } */
+
+  /* Admin4.css */
+/* @media (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+  .table tbody, .table tr, .table td {
+    display: block;
+    width: 100%;
+  }
+  .table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+} */
+
+/* Admin4.css */
+.table-responsive {
+  overflow-x:auto;
+}
+
+.table {
+  min-width: 1000px; /* Set a minimum width for the table */
+}
+
+
+@media (max-width: 850px) {
+  .table {
+    display: block;
+    width: 60%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* #ct{
+    margin-top: 100px;
+    margin-left:-85px;
+  } */
+}
+@media (max-width: 766px) {
+  .table {
+    display: block;
+    width: 60%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  #ct{
+    margin-top: 100px;
+    margin-left:-85px;
+  }
+}
+@media (max-width: 500px) {
+  .table {
+    display: block;
+    width: 60%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  #ct{
+    margin-top: 100px;
+    margin-left:-85px;
+  }
+}
+
+  

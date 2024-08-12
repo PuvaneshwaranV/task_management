@@ -1,0 +1,19 @@
+.sidebar {
+  width: 250px;
+  background-color: #141619;
+  padding-top: 10px; /* Ensure there's padding from the top */
+  height: 100vh; /* Full height to cover the viewport */
+}
+
+.sidebar .nav-link {
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057;
+}
+
+.mt-5 {
+  margin-top: 56px; /* Adjust according to your header height */
+}

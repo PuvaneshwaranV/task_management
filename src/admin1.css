@@ -1,0 +1,44 @@
+/* styles.css */
+.error-message {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+  .invalid-feedback {
+    display: block;
+    color: red;
+  }
+ 
+  .table {
+    overflow-x: auto;
+  }
+  
+  .table {
+    min-width: 100%; /* Set a minimum width for the table */
+  }
+  
+  @media (max-width: 768px) {
+    .table {
+      display: block;
+      width: 60%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    #ct{
+        margin-top: 100px;
+        margin-left:-85px;
+      }
+  }
+  @media (max-width: 500px) {
+    .table {
+      display: block;
+      width: 60%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    #ct{
+      margin-top: 100px;
+      margin-left:-85px;
+    }
+  }
+  

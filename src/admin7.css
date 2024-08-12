@@ -1,0 +1,75 @@
+/* admin6.css */
+
+.chart-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .chart-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust this height as needed */
+  }
+  
+  .header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .header {
+      text-align: center;
+    }
+  
+    .header .text-md-start,
+    .header .text-md-end {
+      text-align: center !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container {
+      padding: 10px;
+      width: 80%;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header h2 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .chart-wrapper {
+      height: 50vh; /* Adjusted height for responsiveness */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .chart-wrapper {
+      height: 40vh; /* Adjusted height for responsiveness */
+
+    }
+    .chart-container{
+        width: 80%;
+    }
+
+    .header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .text-center h3 {
+      font-size: 1.25rem;
+    }
+  }
